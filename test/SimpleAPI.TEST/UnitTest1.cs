@@ -16,7 +16,7 @@ namespace SimpleAPI.TEST
         public void Test1()
         {
             IEnumerable<WeatherForecast> retval = controller.Get();
-            Assert.Equal(1, (int) retval.Count());
+            Assert.Equal(5, (int) retval.Count());
         }
     }
 }
